@@ -90,8 +90,8 @@ export const projects = [
     image: projectImg4,
     tech: ["React.js", "Tailwind CSS", "Framer Motion","EmailJS"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://anportfolio7.netlify.app/",
+    code: "https://github.com/Aarzoomohd/Portfolio",
   },
 ];
 
