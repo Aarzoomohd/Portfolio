@@ -4,7 +4,7 @@ import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/food.avif';
 import projectImg2 from '../assets/lms.avif';
 import projectImg4 from '../assets/portfolio.avif';
-import projectImg5 from '../assets/project5.avif';
+import projectImg5 from '../assets/task.webp';
 import projectImg6 from '../assets/project6.avif';
 
 
@@ -66,11 +66,20 @@ export const skills = [
 
 
 export const projects = [
+   {
+    title: "Task management",
+    description: "A task management system helps users plan, assign, track, and complete tasks efficiently while monitoring progress and deadlines in one place.",
+    image: projectImg5,
+    tech: ["React.js","Javascript(ES6+)", "TailwindCSS", "Context-api"],
+    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
+    demo: "https://task-management74.netlify.app/",
+    code: "https://github.com/Aarzoomohd/task-management",
+  },
   {
     title: "Food-website",
     description: "A responsive food ordering website that lets users browse menus, search items, and order food online seamlessly.",
     image: projectImg1,
-    tech: ["React", "TailwindCSS", "Redux-toolkit", "Context-api"],
+    tech: ["React.js","Javascript(ES6+)", "TailwindCSS", "Redux-toolkit", "Context-api"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "https://foodwebsitean.netlify.app/",
     code: "https://github.com/Aarzoomohd/foodwebsite",
@@ -79,7 +88,7 @@ export const projects = [
     title: "LMS-Learn website",
     description: "LMS-Learn is a web-based learning management system that allows users to create, manage, and track online courses in one platform.",
     image: projectImg2,
-    tech: ["React", "Node.js", "Tailwind CSS","Redux-toolkit","Context-api", "Expree.js","Shadcn-UI","JWT-authentication","MONGODB","Cloudinary","Paypal"],
+    tech: ["React.js","Javascript(ES6+)", "Node.js", "Tailwind CSS","Redux-toolkit","Context-api", "Expree.js","Shadcn-UI","JWT-authentication","MONGODB","Cloudinary","Paypal"],
     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "https://lms-learn-1-nmof.onrender.com/",
     code: "https://github.com/Aarzoomohd/Lms-learn",
@@ -88,7 +97,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: projectImg4,
-    tech: ["React.js", "Tailwind CSS", "Framer Motion","EmailJS"],
+    tech: ["React.js","Javascript(ES6+)", "Tailwind CSS", "Framer Motion","EmailJS"],
     icons: [FaReact, FaCloud],
     demo: "https://anportfolio7.netlify.app/",
     code: "https://github.com/Aarzoomohd/Portfolio",
