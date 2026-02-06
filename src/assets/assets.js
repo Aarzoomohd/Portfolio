@@ -70,7 +70,7 @@ export const projects = [
     title: "Task management",
     description: "A task management system helps users plan, assign, track, and complete tasks efficiently while monitoring progress and deadlines in one place.",
     image: projectImg5,
-    tech: ["React.js","Javascript(ES6+)", "TailwindCSS", "Context-api"],
+    tech: ["React.js","Javascript(ES6+)", "TailwindCSS", "Context-api","local storage"],
     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "https://task-management74.netlify.app/",
     code: "https://github.com/Aarzoomohd/task-management",
