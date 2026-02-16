@@ -41,7 +41,7 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React.js','Next.js']
+    tags: ['HTML5', 'CSS3', 'JavaScript(ES6+)', 'TypeScript', 'React.js', 'Next.js']
   },
   {
     title: 'Backend Development',
@@ -59,7 +59,7 @@ export const skills = [
     title: 'Tools & Technologies',
     icon: FaTools,
     description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub']
+    tags: ['Git & GitHub', 'Vercel', 'Netlify', 'Render']
   }
 ];
 
