@@ -5,7 +5,7 @@ import projectImg1 from '../assets/food.avif';
 import projectImg2 from '../assets/lms.avif';
 import projectImg4 from '../assets/portfolio.avif';
 import projectImg5 from '../assets/task.webp';
-import projectImg6 from '../assets/project6.avif';
+import projectImg6 from '../assets/omgclone.avif';
 
 
 export const assets = {
@@ -41,7 +41,7 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React']
+    tags: ['React.js','Next.js']
   },
   {
     title: 'Backend Development',
@@ -66,6 +66,15 @@ export const skills = [
 
 
 export const projects = [
+   {
+    title: "Omegle-clone",
+    description: "Developed an Omegle-style anonymous video calling app with WebSockets, real-time matchmaking, and live video streaming integration.",
+    image: projectImg6,
+    tech: ["Next.js","TypeScript", "Socket.io" , "ZegoCloud","Tailwind CSS","Framer-Motion"],
+    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
+    demo: "https://incognito-seven-omega.vercel.app/",
+    code: "https://github.com/Aarzoomohd/omegle-clone",
+  },
    {
     title: "Task management",
     description: "A task management system helps users plan, assign, track, and complete tasks efficiently while monitoring progress and deadlines in one place.",
