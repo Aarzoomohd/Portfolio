@@ -111,6 +111,15 @@ export const projects = [
     demo: "https://anportfolio7.netlify.app/",
     code: "https://github.com/Aarzoomohd/Portfolio",
   },
+  {
+    title: "AI-Website",
+    description: "A smart AI platform for generating text, ideas, and solutions with a simple and user-friendly design.",
+    image: projectImg5,
+    tech: ["React.js","Javascript(ES6+)", "Tailwind CSS", "Framer Motion","EmailJS"],
+    icons: [FaReact, FaCloud],
+    demo: "https://ai-website-1-o4ai.onrender.com/",
+    code: "https://github.com/Aarzoomohd/ai-website",
+  },
 ];
 
 
