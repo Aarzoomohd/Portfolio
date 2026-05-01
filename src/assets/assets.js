@@ -6,6 +6,7 @@ import projectImg2 from '../assets/lms.avif';
 import projectImg4 from '../assets/portfolio.avif';
 import projectImg5 from '../assets/task.webp';
 import projectImg6 from '../assets/omgclone.avif';
+import projectImg7 from '../assets/aiwebsite.webp';
 
 
 export const assets = {
@@ -114,7 +115,7 @@ export const projects = [
   {
     title: "AI-Website",
     description: "A smart AI platform for generating text, ideas, and solutions with a simple and user-friendly design.",
-    image: projectImg5,
+    image: projectImg7,
     tech: ["React.js","Javascript(ES6+)", "Tailwind CSS", "Framer Motion","EmailJS"],
     icons: [FaReact, FaCloud],
     demo: "https://ai-website-1-o4ai.onrender.com/",
