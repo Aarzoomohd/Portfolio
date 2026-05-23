@@ -20,18 +20,8 @@ const About = () => {
             </h2>
             <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>Get to know more about my background and passion</p>
 
-            {/* image + my journey */}
+            {/* my journey */}
             <div className='flex flex-col md:flex-row items-center gap-12'>
-                    {/* image */}
-                    <div className='md:w-1/2 rounded-2xl flex justify-center'>
-                      <motion.img 
-                      initial={{opacity:0,y:50}}
-                      whileInView={{opacity:1, y:0}}
-                      transition={{duration:0.9,ease:'easeOut'}}
-                      viewport={{once: false,amount:0.2}}
-                      className='w-210 h-210 object-cover'
-                      src={assets.profileImg} alt="Profile" />  
-                    </div>
                     {/* Text content */}
                     <motion.div
                      initial={{opacity:0,y:50}}
