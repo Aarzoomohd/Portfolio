@@ -1,4 +1,5 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, } from 'react-icons/fa';
+import { SiJavascript,SiTailwindcss,SiFramer,SiExpress,SiOpenai,SiMongodb,SiFirebase} from 'react-icons/si'
 
 import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/food.avif';
@@ -71,8 +72,8 @@ export const projects = [
     title: "AI-Website",
     description: "A smart AI platform for generating text, ideas, and solutions with a simple and user-friendly design.",
     image: projectImg7,
-    tech: ["React.js","Javascript(ES6+)", "Tailwind CSS", "Framer Motion","EmailJS"],
-    icons: [FaReact, FaCloud],
+    tech: ["React.js","Javascript(ES6+)", "Tailwind CSS", "Framer Motion","Nodejs","Express.js","OpenAI API","MongoDB","Stripe","Firebase"], 
+    icons: [FaReact, SiJavascript, SiTailwindcss, SiFramer, FaNodeJs, SiExpress, SiOpenai, SiMongodb, FaStripe, SiFirebase],
     demo: "https://ai-website-1-o4ai.onrender.com/",
     code: "https://github.com/Aarzoomohd/ai-website",
   },
@@ -103,15 +104,15 @@ export const projects = [
     demo: "https://foodwebsitean.netlify.app/",
     code: "https://github.com/Aarzoomohd/foodwebsite",
   },
-  {
-    title: "LMS-Learn website",
-    description: "LMS-Learn is a web-based learning management system that allows users to create, manage, and track online courses in one platform.",
-    image: projectImg2,
-    tech: ["React.js","Javascript(ES6+)", "Node.js", "Tailwind CSS","Redux-toolkit","Context-api", "Expree.js","Shadcn-UI","JWT-authentication","MONGODB","Cloudinary","Paypal"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "https://lms-learn-1-nmof.onrender.com/",
-    code: "https://github.com/Aarzoomohd/Lms-learn",
-  },
+  // {
+  //   title: "LMS-Learn website",
+  //   description: "LMS-Learn is a web-based learning management system that allows users to create, manage, and track online courses in one platform.",
+  //   image: projectImg2,
+  //   tech: ["React.js","Javascript(ES6+)", "Node.js", "Tailwind CSS","Redux-toolkit","Context-api", "Expree.js","Shadcn-UI","JWT-authentication","MONGODB","Cloudinary","Paypal"],
+  //   icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
+  //   demo: "https://lms-learn-1-nmof.onrender.com/",
+  //   code: "https://github.com/Aarzoomohd/Lms-learn",
+  // },
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
@@ -121,6 +122,14 @@ export const projects = [
     demo: "https://anportfolio7.netlify.app/",
     code: "https://github.com/Aarzoomohd/Portfolio",
   },
-];
+ ];
+  export const workData = [
+    {
+      role: 'Software engineer intern',
+      company: 'Softential Solutions llp',
+      duration: 'April 2026 - Present',
+      description: 'Learned the basics of application development using C# and .NET in a practical environment. Gained hands-on exposure to coding, debugging, and software development concepts.'
+    },
+  ];
 
 
